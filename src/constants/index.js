@@ -15,13 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  wayaap,
+  geeks,
+  larseng,
+  delisa,
+  todo,
+  promptopia,
   threejs,
 } from "../assets";
 
@@ -42,19 +41,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "MERN Stack Developer",
+    title: "FullStack Developer",
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
-    title: "Next JS Developer",
+    title: "React/Next Developer",
     icon: creator,
   },
 ];
@@ -117,69 +116,56 @@ const technologies = [
 const experiences = [
 
   {
-    title: "Front-end Developer",
+    title: "Full Stack Developer",
     company_name: "Geek Republiq",
-    icon: starbucks,
-    iconBg: "#E6DEDD",
-    date: "[Start Date] - [End Date]",
+    icon: geeks,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
     points: [
-        "Developed responsive UI components using React and Tailwind CSS.",
-        "Optimized front-end performance and ensured cross-browser compatibility.",
-        "Collaborated with designers and back-end developers to create seamless user experiences."
+      "Developing and maintaining full-stack web applications for car listings and customer management, utilizing React.js for the front-end and Node.js/Express for the backend.",
+      "Integrated AWS services (S3, EC2) for handling image uploads and hosting the backend infrastructure.",
+      "Implemented secure user authentication using JWT and OAuth, ensuring a robust and secure customer login experience.",
+      "Improved site performance by 30% through effective database indexing and load balancing techniques.",
+      "Collaborated with cross-functional teams to develop new features, achieving a 20% increase in monthly active users.",
+      "Staying updated with the latest industry trends and technologies to continually improve my skill set.",
+      "Debugging and troubleshooting issues to ensure optimal application performance",
+      
     ]
 },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Wayaap NGO,",
+    icon: wayaap,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2021 - Mar 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimizing application performance and load times for better user experience.",
+      "Creating documentation to facilitate onboarding and maintain code clarity.",
+      "Collaborating in agile development environments, participating in sprint planning and retrospectives.",
+      "Building reusable components and libraries to streamline development processes."
+
     ],
   },
   {
-    title: "Next JS Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using Next.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "Larseng Group",
+    icon: larseng,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2020 - Oct 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed engaging user interfaces using React.js and Tailwind CSS, ensuring excellent user experiences across multiple devices.",
+      "Collaborated with the back-end team to implement RESTful APIs, improving data synchronization between front-end and back-endrating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Utilized GitHub for version control and collaborated with developers in an Agile environment to ship features within sprints.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilizing version control systems like Git for efficient project collaboration"
     ],
   },
-  {
-    title: "MERN Stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using MERN and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
+   
 ];
 
 const testimonials = [
@@ -211,67 +197,82 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Restaurant",
+    description: "A full-stack web application for managing restaurant operations, including menu management and table reservations. Built with the MERN stack, it offers a seamless user experience and dynamic data handling.",
     tags: [
       {
-        name: "react",
+        name: "mongodb",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
         color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: delisa,
+    source_code_link: "https://restaurant-lgoi.onrender.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Todo-app",
+    description:"Web application that allows users to manage their tasks, mark them as completed,filter the completed tasks and the incompleted ones,it also has a search where you can find your to-do tasks easily. It uses Redux Toolkit for state management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "reduxtoolkit",
         color: "pink-text-gradient",
       },
+      {
+        name: "daisyui",
+        color: "pink-text-gradient",
+      },
+  
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://todo-app-iota-three-35.vercel.app/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Promptopia",
+    description: "A full-stack web application designed for generating, sharing, and exploring AI prompts. It features a user-friendly interface and utilizes Next.js for optimized performance and server-side rendering.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "googleauthentication",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: promptopia,
+    source_code_link: "https://promptopia-ai-prompts-mu.vercel.app/",
   },
 ];
 

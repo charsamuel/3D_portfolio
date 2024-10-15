@@ -23,12 +23,15 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import delisa from "./delisa.png";
+import todo from "./todo.png";
+import promptopia from "./promptopia.png";
+
+import larseng from "./larseng.png"
+import geeks from "./geeks.png"
+import wayaap from "./wayaap.svg"
 
 export {
   logo,
@@ -54,9 +57,11 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  larseng,
+  geeks,
+  wayaap,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  delisa,
+  todo,
+  promptopia,
 };

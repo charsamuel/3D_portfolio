@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in MernStack and Next
-        JS, and expertise in frameworks like React, Node.js, and Three.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+    I'm a skilled software developer with experience in frontend and backend, and expertise in frameworks like React.js, Next.js, Three.js, Node.js, Express, MongoDB, and SQL. I'm a quick learner and I collaborate closely with colleagues and clients, leveraging teamwork to create efficient, scalable, and user-friendly solutions that solve real-world problems. I believe in the power of collaboration and open communication to achieve project goals. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
